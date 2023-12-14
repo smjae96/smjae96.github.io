@@ -1,0 +1,24 @@
+.sidebar { width: 15%; background-color:#464646; padding:2% 0;
+                       
+    position: fixed;
+    top: 58px;       /* 브라우저(전체화면) 기준으로 상단에서 설정 값만큼 간격을 둠 (위치) */
+    bottom: 0;       /* 브라우저(전체화면) 기준으로 하단에서 설정 값만큼 간격을 둠 */
+    left: 0;         /* 브라우저(전체화면) 기준으로 왼쪽에서 설정 값만큼 간격을 둠 */
+    /* right */ 
+  }
+.sidebar-link {
+     height: 55px;
+     display: flex;
+     align-items: center;
+     cursor: pointer;                                        
+     background-color: #464646;
+     margin-left: 15px;
+}
+.sidebar-link:hover {
+background-color:#756262;
+margin-right: 15px;
+border-radius: 10px;
+}
+.sidebar-link div { display: inline-block; margin-left: 15px;
+             color: white; font-size: 14px;}
+.sidebar-link img {height: 37px; margin-bottom: 3px;}
